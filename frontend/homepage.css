@@ -1,0 +1,71 @@
+:root {
+    --background-color: rgb(33, 33, 33);
+    --bs-primary-rgb: #d63
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--bs-primary-rgb);
+    font-weight: 300;
+  }
+  
+  h1,h2,h3,h4.h5,h6 {
+    font-family: 'unbounded', cursive;
+    font-weight: 700;
+  }
+  
+  .container-fluid-custom {
+    max-width: 1600px;
+  }
+
+  .custom-search-box {
+    width: 400px; 
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+}
+
+.column:last-child {
+    border-right: none;
+}
+
+  
+@media (min-width: 576px) {
+  .container-fluid-custom {
+    max-width: 540px; /* For small screens (mobile phones) */
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-fluid-custom {
+    max-width: 720px; /* For medium screens (iPads) */
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-fluid-custom {
+    max-width: 960px; /* For small laptops */
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-fluid-custom {
+    max-width: 960px; /* Suitable for laptops with a 1024px width */
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid-custom {
+    max-width: 1140px; /* Suitable for larger laptops and desktops */
+    margin: 0 auto;
+  }
+}
