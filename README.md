@@ -88,14 +88,14 @@ mongoose.connect('mongodb://localhost:27017/notetakingDB')
 7. The user can edit and delete their own notes from 'My Notes' page.
 8. Once there are more than 6 notes per page, a pagination button will be displayed to direct to see more notes on the next page. 
 
-![Allnotes page](images\AllNotesPage.PNG)
+![Allnotes page](images\AllNotesPage.png)
 
-![Mynotes Page](images\MyNotesPage.PNG)
+![Mynotes Page](images\MyNotesPage.png)
 
 
 
 # The app structure
-![App structure](images\AppStructure.PNG)
+![App structure](images\AppStructure.png)
 
 
 <!--Note_Taking_App/
